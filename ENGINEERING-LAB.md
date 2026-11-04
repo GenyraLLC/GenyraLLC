@@ -1,12 +1,12 @@
 # Genyra Engineering Lab
 
-[Genyra profile](README.md) · [Genyra.com](https://genyra.com) · [Discuss a project](https://genyra.com/contact)
+[Genyra profile](README.md) · [Genyra.com](https://genyra.com) · [This Lab on Genyra.com](https://genyra.com/engineering/lab) · [Discuss a project](https://genyra.com/contact)
 
 This index describes what Genyra independently engineered in four attributed modernisation forks and where to inspect the proof. It prioritises the larger, evidence-backed migrations before the experimental security project. Evidence reviewed on **4 November 2026**.
 
 ## 1. Legacy Ledger & Payroll
 
-[Repository](https://github.com/GenyraLLC/legacy-ledger-rust) · [Original project](https://github.com/albertdobmeyer/cobol-legacy-ledger)
+[Repository](https://github.com/GenyraLLC/legacy-ledger-rust) · [Original project](https://github.com/albertdobmeyer/cobol-legacy-ledger) · [Lab page](https://genyra.com/engineering/lab/legacy-ledger)
 
 **Original work:** Albert Mendes / AKD APP BREWING's COBOL Legacy Ledger, under its retained MIT licence.
 
@@ -23,7 +23,7 @@ This index describes what Genyra independently engineered in four attributed mod
 
 ## 2. Hotel Operations
 
-[Repository](https://github.com/GenyraLLC/hotel-rust) · [Original project](https://github.com/Ghostalex07/cobol-hotel)
+[Repository](https://github.com/GenyraLLC/hotel-rust) · [Original project](https://github.com/Ghostalex07/cobol-hotel) · [Lab page](https://genyra.com/engineering/lab/hotel-operations)
 
 **Original work:** Alejandro Blanco's COBOL hotel simulator, under its retained MIT licence.
 
@@ -40,7 +40,7 @@ This index describes what Genyra independently engineered in four attributed mod
 
 ## 3. COBCALC
 
-[Repository](https://github.com/GenyraLLC/cobcalc-rust) · [Original project](https://github.com/manyone/cobcalc)
+[Repository](https://github.com/GenyraLLC/cobcalc-rust) · [Original project](https://github.com/manyone/cobcalc) · [Lab page](https://genyra.com/engineering/lab/cobcalc)
 
 **Original work:** Manny Juan's COBOL expression evaluator, under its retained GPL-3.0-or-later licence.
 
@@ -57,7 +57,7 @@ This index describes what Genyra independently engineered in four attributed mod
 
 ## 4. Genyra Snitch
 
-[Repository](https://github.com/GenyraLLC/genyra-snitch) · [Original project](https://github.com/aixisstudio/Snitch)
+[Repository](https://github.com/GenyraLLC/genyra-snitch) · [Original project](https://github.com/aixisstudio/Snitch) · [Lab page](https://genyra.com/engineering/lab/genyra-snitch)
 
 **Original work:** Snitch by aiXis Studio, under its retained AGPL-3.0 licence and upstream notices.
 
