@@ -61,7 +61,7 @@ This index describes what Genyra independently engineered in four attributed mod
 
 **Original work:** Snitch by aiXis Studio, under its retained AGPL-3.0 licence and upstream notices.
 
-**Genyra engineering:** a native Rust collector replacing the Python backend, compatibility with the upstream REST/WebSocket contracts, native security integrations and documented migration and resource checks. A separate native-desktop branch is extending the Rust UI and platform adapters.
+**Genyra engineering:** a native Rust collector replacing the Python backend, compatibility with the upstream REST/WebSocket contracts, native security integrations and documented migration and resource checks. The native desktop and platform adapters are developed on the repository's single `main` branch.
 
 **Maturity:** the published application is a Linux x86-64 alpha. Native desktop parity and Windows/macOS work remain in progress. Successful platform builds and synthetic service-lifecycle tests do not establish privileged live-capture or firewall parity across all operating systems.
 
@@ -69,7 +69,7 @@ This index describes what Genyra independently engineered in four attributed mod
 
 - [Resource methodology and limits](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/PERFORMANCE.md)
 - [Feature coverage and validation boundaries](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/FEATURES.md)
-- [Native rewrite status](https://github.com/GenyraLLC/genyra-snitch/blob/native-desktop/docs/NATIVE-REWRITE.md)
+- [Native rewrite status](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/NATIVE-REWRITE.md)
 - [Upstream provenance](https://github.com/GenyraLLC/genyra-snitch/blob/main/UPSTREAM.json)
 
 ## Reading the evidence
