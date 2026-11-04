@@ -52,7 +52,7 @@ This index describes what Genyra independently engineered in four attributed mod
 
 - [Verification summary](https://github.com/GenyraLLC/cobcalc-rust/blob/main/evidence/verification.json)
 - [Numeric contract, conversion decisions and limitations](https://github.com/GenyraLLC/cobcalc-rust/blob/main/MIGRATION.md)
-- [Pinned upstream provenance](https://github.com/GenyraLLC/cobcalc-rust/blob/main/UPSTREAM.json)
+- [Upstream attribution and licence notice](https://github.com/GenyraLLC/cobcalc-rust/blob/main/NOTICE)
 - [Build and run the application](https://github.com/GenyraLLC/cobcalc-rust#run-the-finished-application)
 
 ## 4. Genyra Snitch
