@@ -65,9 +65,12 @@ This index describes what Genyra independently engineered in four attributed mod
 
 **Maturity:** the published application is a Linux x86-64 alpha. Native desktop parity and Windows/macOS work remain in progress. Successful platform builds and synthetic service-lifecycle tests do not establish privileged live-capture or firewall parity across all operating systems.
 
-**Published resource measurements:** a fresh five-minute Linux capture comparison on 4 November 2026 measured current Rust at 1.83% of one logical core and 44.89 MiB mean RSS, versus Python at 104.36% and 109.94 MiB mean RSS. Both captured the same real interface concurrently after a 45-second warm-up, without frontends attached. Capture defaults differ, including snapshot length and promiscuous mode; this is not proof of identical capture policy or feature parity. The resource guide retains the earlier 20-second sample (Rust 2.4% CPU / 168.82 MiB RSS; Python 15.3% / 144.93 MiB), which showed higher native RSS. Neither sample establishes full-desktop or long-term resource guarantees; optional inference has additional costs.
+**Published resource measurements:** separate five-minute Linux cohorts measured background and full-application use. Background original/native CPU was 104.36% / 1.83% of one logical core; mean RSS was 109.94 / 44.89 MiB. The revised native alpha.5 application, including its collector, averaged 10.16% CPU, 171.89 MiB summed RSS and 113.77 MiB PSS versus original Python/Electron at 324.33%, 1,279.49 MiB and 755.24 MiB. Full-app PSS accounts for shared resident pages. Capture policies, algorithms and update cadences differ; native RSS grew 18.44 MiB during its run. These are scoped observations, not full parity, equal-cadence rendering or long-term stability claims. The guide retains the earlier sample with higher native RSS.
 
-- [Dated comparison, build identities and aggregate data](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/benchmarks/2026-11-04-linux-capture.md)
+**Native interface:** Genyra light/dark themes and eight-language navigation/overview. The published busy screenshots are actual native renders of a separately generated, entirely fictional Rust dataset. They contain no personal hosts or captured network connections. The application remains a **Linux alpha**.
+
+- [Background and application evidence, visual timing and build identities](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/benchmarks/2026-11-04-linux-application.md)
+- [Privacy-safe light/dark alpha gallery](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/images/README.md)
 - [Resource methodology and limits](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/PERFORMANCE.md)
 - [Feature coverage and validation boundaries](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/FEATURES.md)
 - [Native rewrite status](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/NATIVE-REWRITE.md)

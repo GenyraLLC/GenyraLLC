@@ -34,7 +34,7 @@ Genyra rebuilt the expression evaluator in Rust with an explicit decimal contrac
 
 **Linux alpha.** Genyra replaced the Python collector with Rust for network visibility, application controls and investigation tools. The native desktop and Windows/macOS work remain under validation; full application parity is still in progress.
 
-The **4 November 2026 five-minute collector comparison** measured current Rust at **1.83% of one logical core and 44.89 MiB mean RSS**, versus Python at **104.36% and 109.94 MiB mean RSS**. This excludes desktop rendering, uses differing capture defaults and does not establish complete parity or long-term stability. The published resource guide also retains the earlier 20-second sample, which showed higher native RSS.
+The **4 November 2026 Linux measurements** cover background collectors and the revised native application. Background mean RSS was **109.94 → 44.89 MiB**; complete-app mean summed RSS was **1,279.49 → 171.89 MiB**, with PSS **755.24 → 113.77 MiB**. These five-minute workloads used differing capture policies and animation cadences. Native application RSS still grew during its run; neither sample establishes long-term stability or full parity. The earlier higher-native-RSS result is retained in the resource guide.
 
 [Measurements and limits](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/PERFORMANCE.md) · Upstream: [Snitch by aiXis Studio](https://github.com/aixisstudio/Snitch).
 
