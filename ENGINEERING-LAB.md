@@ -65,8 +65,9 @@ This index describes what Genyra independently engineered in four attributed mod
 
 **Maturity:** the published application is a Linux x86-64 alpha. Native desktop parity and Windows/macOS work remain in progress. Successful platform builds and synthetic service-lifecycle tests do not establish privileged live-capture or firewall parity across all operating systems.
 
-**Published resource measurement:** one 20-second Linux collector comparison measured Rust CPU at 2.4% of one core versus Python at 15.3%. Rust RSS was 168.82 MiB versus Python's 144.93 MiB. Both the lower CPU and higher resident-memory result are material. The sample excludes a general guarantee about a full desktop session or sustained workloads; optional inference has additional costs.
+**Published resource measurements:** a fresh five-minute Linux capture comparison on 4 November 2026 measured current Rust at 1.83% of one logical core and 44.89 MiB mean RSS, versus Python at 104.36% and 109.94 MiB mean RSS. Both captured the same real interface concurrently after a 45-second warm-up, without frontends attached. Capture defaults differ, including snapshot length and promiscuous mode; this is not proof of identical capture policy or feature parity. The resource guide retains the earlier 20-second sample (Rust 2.4% CPU / 168.82 MiB RSS; Python 15.3% / 144.93 MiB), which showed higher native RSS. Neither sample establishes full-desktop or long-term resource guarantees; optional inference has additional costs.
 
+- [Dated comparison, build identities and aggregate data](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/benchmarks/2026-11-04-linux-capture.md)
 - [Resource methodology and limits](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/PERFORMANCE.md)
 - [Feature coverage and validation boundaries](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/FEATURES.md)
 - [Native rewrite status](https://github.com/GenyraLLC/genyra-snitch/blob/main/docs/NATIVE-REWRITE.md)
